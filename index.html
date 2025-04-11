@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>My Wiki Site</title>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </head>
 <body>
   <div id="app">Loading...</div>
+
   <script>
     window.$docsify = {
+      homepage: 'Home.md',
       loadSidebar: true,
-      loadNavbar: true,
+      loadNavbar: false
     }
   </script>
+
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
